@@ -1,0 +1,9 @@
+# The command "./generatehs" converts the markdown files to Haskell files
+runhaskell ../Resources/mdtohs.hs < data.md > data.hs
+runhaskell ../Resources/mdtohs.hs < Life.md > Life.hs
+runhaskell ../Resources/mdtohs.hs < monads.md > monads.hs
+runhaskell ../Resources/mdtohs.hs < IOPrime.md > IOPrime.hs
+runhaskell ../Resources/mdtohs.hs < continuations.md > continuations.hs
+runhaskell ../Resources/mdtohs.hs < satsolver.md > satsolver.hs
+runhaskell ../Resources/mdtohs.hs < tictactoe.md > tictactoe.hs
+runhaskell ../Resources/mdtohs.hs < lazy.md > lazy.hs

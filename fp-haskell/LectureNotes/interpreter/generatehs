@@ -1,0 +1,4 @@
+runhaskell ../../Resources/mdtohs.hs < Interpreter.md > Interpreter.hs
+runhaskell ../../Resources/mdtohs.hs < Parser.md > Parser.hs
+runhaskell ../../Resources/mdtohs.hs < Runxy.md > Runxy.hs
+runhaskell ../../Resources/mdtohs.hs < AbstractSyntax.md > AbstractSyntax.hs
